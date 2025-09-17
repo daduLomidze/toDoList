@@ -41,4 +41,22 @@ main button {
 main button:active {
     cursor: pointer;
     background-color: rgb(78, 38, 207);
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav span {
+    font-size: 20px;
+}
+
+nav div a {
+    margin: 0px 10px;
+    color: black;
 }
